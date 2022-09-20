@@ -1,0 +1,61 @@
+#submitButton{
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    outline: none;
+    font-weight: 900;
+    margin:4px;
+    background-color: #a11f53;
+    text-transform: uppercase;
+    padding: 9px;
+    border-radius: 7px;
+    color: white;
+  }
+  
+  #submitButton:hover {
+    background-color: #6d1136;
+    color: rgb(218, 206, 206);
+  }
+
+  NavLink{
+    margin: 4px;
+  }
+ #loginSignupLink a{
+    background-color: #a11f53;
+    font-size: 20px;
+    padding: 9px;
+    border-radius: 7px;
+
+    color: white;
+    text-decoration: none;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.loginPageAlignment{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    width: 100vw;
+    margin: 4rem 0px;
+   
+}
+
+.loginForm{
+  margin: 5px;
+}
+
+div input .loginForm{
+  height: 54px;
+  width: 34vw;
+  border-radius: 14px;
+}
+
+.anchorHref{
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+}

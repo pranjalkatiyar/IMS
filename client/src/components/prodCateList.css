@@ -1,0 +1,89 @@
+#tableList {
+  font-family: 'Poppins', sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #tableList td, #tableList th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+
+  #tableList tr{background-color: #b39a9a;}
+
+#tableList tr:hover {background-color: #ddd;}
+
+#tableList th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #6d1136;;
+  color: white;
+}
+
+.submitButton{
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  outline: none;
+  font-weight: 900;
+  margin:4px;
+  background-color: #a11f53;
+  text-transform: uppercase;
+  padding: 9px;
+  border-radius: 7px;
+  color: white;
+}
+
+.submitButton:hover {
+  background-color: #6d1136;
+  color: rgb(218, 206, 206);
+}
+
+.inputField{ 
+    width: 100%;
+    padding: 10px 0;
+    background: none;
+    border: none;
+    border-bottom: 1px solid black;
+    color:white;
+    font-size: 14px;
+    text-transform: uppercase;
+    outline: none;
+    transition: border-color 0.2s;
+    margin: 4px;
+}
+
+
+.description{
+  text-transform: none;
+}
+
+.inputField::placeholder{
+  color: rgb(230, 220, 220);
+  opacity: 1;  
+  text-transform: uppercase;
+}
+
+#addBox{
+  display: flex;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: space-around;
+  align-items: center;
+  margin: 5rem;
+}
+
+.pageName{
+  font-size: 40px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.dropdownCategory option{
+  font-family: 'Poppins', sans-serif;
+  background-color: #a11f53;
+  font-weight: bold;
+  text-transform: none;
+}

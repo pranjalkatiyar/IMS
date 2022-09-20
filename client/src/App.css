@@ -1,0 +1,13 @@
+body {
+    background: linear-gradient(to right, #d6226a 0%, #eb466b 100%);
+    font-size: 12px;
+  }
+
+  body,
+button,
+input,
+table {
+    font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  letter-spacing: 1.4px;
+}

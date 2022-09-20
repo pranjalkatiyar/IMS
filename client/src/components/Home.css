@@ -1,0 +1,23 @@
+.navbarDecoration{
+    margin:0
+}
+
+
+.navbarDecoration,.navbarDecoration li a{
+    background-color: #222;
+    color: white;
+    text-decoration: none;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+div .navBarContent{
+    display: flex;
+    font-size: large;
+    text-transform: uppercase;
+    align-items: center;
+    gap: 13rem;
+  }
