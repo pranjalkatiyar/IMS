@@ -6,6 +6,7 @@ const cors=require('cors');
 const CategoryModel=require('./models/category');
 const ProductModel=require('./models/products');
 require('dotenv').config()
+PORT=process.env.PORT || 3001;
  
 app.use(express.json());
 app.use(bodyParser.urlencoded({ extended: false }))
@@ -152,6 +153,6 @@ app.delete('/products/delete/:id',async (req,res)=>{
 });
 
 
-app.listen("3001",()=>{
-    console.log("Server started on port 3001");
+app.listen(PORT,()=>{
+    console.log("Server started on port 3001",PORT);
 });
